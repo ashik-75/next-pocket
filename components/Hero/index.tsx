@@ -81,7 +81,6 @@ function Hero() {
 
           <ModalVideo
             channel="youtube"
-            autoplay
             isOpen={isOpen}
             videoId="8pDqJVdNa44"
             onClose={() => setIsOpen(false)}
