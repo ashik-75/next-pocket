@@ -25,7 +25,7 @@ function Footer() {
         </div>
 
         <div className="flex flex-col items-center justify-between gap-3 py-5 md:flex-row">
-          <p className="order-last text-gray-700 md:order-first">
+          <p className="order-last text-gray-500 md:order-first">
             © Copyright 2023. All rights reserved.{" "}
           </p>
 
@@ -33,7 +33,7 @@ function Footer() {
             <input
               type="email"
               placeholder="Email address"
-              className="w-[60%] rounded border px-3 py-1 outline-none"
+              className="w-[60%] rounded-lg border border-gray-900/10 px-3 py-1 outline-none"
             />
             <button className=" rounded-lg bg-cyan-500 py-2 px-2 text-sm text-white ">
               Join newsletter
