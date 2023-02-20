@@ -51,7 +51,7 @@ function Hero() {
           </p>
           {/* buttons */}
           <div className="flex gap-5">
-            <button className="flex items-center justify-center space-x-4 rounded-lg border border-gray-200 bg-gray-800 px-3 py-1">
+            <button className="flex items-center justify-center space-x-1 rounded-lg border border-gray-200 bg-gray-800 px-3 py-1 md:space-x-4">
               <img src="/play.png" className="w-5" />
               <div className="flex flex-col items-start">
                 <p className="text-xs text-white">Get on</p>
@@ -70,7 +70,7 @@ function Hero() {
           <div className="space-y-5">
             <h4 className="font-medium">As featured in</h4>
 
-            <ul className="flex flex-wrap gap-2">
+            <ul className="grid grid-cols-3 gap-2 md:flex md:flex-wrap">
               {sponsors.map((image) => (
                 <li key={image.id}>
                   <img src={image.url} alt="" className="h-12 w-28" />
@@ -89,7 +89,7 @@ function Hero() {
 
         {/* right section */}
         <div className=" ">
-          <div className="relative mx-auto h-[600px] w-[366px] overflow-hidden">
+          <div className="relative mx-auto h-[600px] w-[340px] overflow-hidden md:w-[366px]">
             <img src="/mobile.svg" className=" " alt="" />
             <div className="absolute inset-0 -z-20  rounded-3xl  p-5 ">
               <div className="bg-black">

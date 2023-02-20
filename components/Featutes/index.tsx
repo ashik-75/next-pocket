@@ -25,7 +25,7 @@ function Features() {
           </div>
 
           <div className="mt-10 md:mt-0">
-            <div className="relative mx-auto h-[600px] w-[366px] overflow-hidden">
+            <div className="relative mx-auto h-[600px] w-[340px] overflow-hidden md:w-[366px]">
               <img src="/mobile.svg" alt="" className="relative z-20" />
 
               <div className="absolute inset-0 h-full  p-5">

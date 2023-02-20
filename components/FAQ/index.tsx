@@ -14,7 +14,9 @@ function FAQ() {
     <section id="faq" className="py-20 md:py-28">
       <div className="mx-auto max-w-7xl space-y-10 px-4 sm:px-6 lg:px-8">
         <div className="space-y-3">
-          <h3 className="text-3xl font-medium">Frequently asked questions</h3>
+          <h3 className="text-2xl font-medium md:text-3xl">
+            Frequently asked questions
+          </h3>
           <p className="text-lg text-gray-700">
             If you have anything else you want to ask, reach out to us.
           </p>
