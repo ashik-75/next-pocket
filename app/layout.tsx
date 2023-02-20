@@ -11,7 +11,7 @@ export default function RootLayout({
   return (
     <html lang="en" className="scroll-smooth">
       <head />
-      <body className="dark:bg-slate-700">
+      <body>
         <Providers>
           <Header />
           <main>{children}</main>
