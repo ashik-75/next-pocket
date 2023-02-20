@@ -35,7 +35,7 @@ function Footer() {
               placeholder="Email address"
               className="w-[60%] rounded border px-3 py-1 outline-none"
             />
-            <button className="rounded-lg bg-cyan-500 py-2 px-3 text-sm text-white ">
+            <button className=" rounded-lg bg-cyan-500 py-2 px-2 text-sm text-white ">
               Join newsletter
             </button>
           </form>
