@@ -1,18 +1,23 @@
-import './globals.css'
+import Footer from "@/components/Footer";
+import Header from "@/components/Header";
+import "../style/global.css";
+import Providers from "./providers";
 
 export default function RootLayout({
   children,
 }: {
-  children: React.ReactNode
+  children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
-      {/*
-        <head /> will contain the components returned by the nearest parent
-        head.tsx. Find out more at https://beta.nextjs.org/docs/api-reference/file-conventions/head
-      */}
+    <html lang="en" className="scroll-smooth">
       <head />
-      <body>{children}</body>
+      <body className="dark:bg-slate-700">
+        <Providers>
+          <Header />
+          <main>{children}</main>
+          <Footer />
+        </Providers>
+      </body>
     </html>
-  )
+  );
 }
